@@ -1,7 +1,85 @@
+body{
+    display: flex;
+    flex-direction:column;
+    justify-content: space-between;
 
+    height:100vh;
+}
+
+button{
+    background-color: blue;
+    color:white;
+    border-radius:10px;
+    padding:5px 20px 5px 20px; 
+
+}
 
 .header{
     display: flex;
     justify-content: space-between;
-    color:black;
+    height:50px;
+    padding:10px;
+    background-color: bisque;
 }
+
+.right-link{
+    display: flex;
+    gap:10px;
+}
+
+
+
+
+
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:20px;
+    flex:1;
+
+    background-color:yellow;
+}
+
+
+.content.one{
+    flex-direction: row;
+}
+.welcome .title{
+    font-weight: bold;
+    font-size:20px;
+}
+
+
+.content.two{
+    flex-direction: column;
+}
+.content.two .body{
+    display: flex;
+    gap:12px;
+}
+
+
+
+
+
+.footer{
+    display: flex;
+    background-color: pink;
+    justify-content: center;
+
+    padding:10px;
+}
+
+.attention{
+    display: flex;
+    justify-content: space-between;
+    
+    padding:10px;
+    background-color: purple;
+
+    width:50%;
+}
+
+
+
